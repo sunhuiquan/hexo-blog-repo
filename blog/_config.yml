@@ -106,3 +106,12 @@ deploy:
   repo:
     github: git@github.com:sunhuiquan/sunhuiquan.github.io.git
   branch: master
+
+# RSS
+plugins:
+  hexo-generator-feed
+# Feed Atom
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
