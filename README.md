@@ -14,7 +14,7 @@
 	```bash
 	hexo g # 产生文件
 	hexo s # 本机访问 http://localhost:4000/
-	hexo d # 产生文件并部署
+	hexo d # 部署(需要先hexo g产生文件)
 	```
 5. 配置文件
 	1. _config.yml   内部有部署的服务器和一些网站内容设置
