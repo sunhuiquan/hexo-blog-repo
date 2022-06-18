@@ -24,3 +24,5 @@
 	rm -rf node_modules
 	npm install --force
 	```
+7. 插入图片
+	要在 source 下创建一个 images 文件夹，然后 !\[IMG\]\(/images/xx.png\) 的方式引用，hexo 部署后的根目录就是 source，所以 / 代表 source 目录，我们要用绝对路径，因为非首页的情况下同样文章的所在路径不同。另外必须在 source 目录下，原因同上，source 外不会被算入。
