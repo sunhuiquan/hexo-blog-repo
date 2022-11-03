@@ -1,13 +1,17 @@
 # 博客备份
 
-1. 安装 nodejs 和 npm [官网链接](https://nodejs.org/zh-cn/download/)
+1. 安装 npm
+	```bash
+	sudo apt-get install npm
+	```
 2. 安装 hexo
 	```bash
-	npm install -g hexo
+	sudo npm install -g hexo
 	```
 3. 创建博客
 	```bash
-	hexo init # 初始化项目
+	cd blog # 需要进入到 hexo 项目路径下才能使用命令
+	hexo init # 初始化项目(仅首次需要)
 	hexo new post <title> # 创建post
 	```
 4. 部署博客
